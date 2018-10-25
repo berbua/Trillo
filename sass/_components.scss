@@ -167,3 +167,17 @@
   padding: 2.5rem;
   color: currentColor;
 }
+
+////////////////////////////////////////
+//Hotel view
+
+.gallery {
+  display: flex;
+  &__item {
+    text-transform: uppercase;
+  }
+  &__photo {
+    width: 100%;
+    display: block;
+  }
+}
